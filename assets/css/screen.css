@@ -319,6 +319,22 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 1.6rem;
 }
 
+.disabled .fa-bell {
+    display: none;
+}
+
+.disabled .fa-bell-slash {
+    display: block;
+}
+
+.enabled .fa-bell {
+    display: block;
+}
+
+.enabled .fa-bell-slash {
+    display: none;
+}
+
 .social-link-wb svg path {
     stroke: #fff;
 }
@@ -367,7 +383,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
         padding-left: 4vw;
     }
     .site-nav-right {
-        display: none;
+        padding-right: 4vw;
     }
 }
 
@@ -528,8 +544,8 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     overflow: hidden;
     margin: 0 -5px;
-    width: 34px;
-    height: 34px;
+    width: 48px;
+    height: 48px;
     border: #fff 2px solid;
     border-radius: 100%;
 }

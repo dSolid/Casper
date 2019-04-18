@@ -64,3 +64,7 @@ You can add your own SVG icons in the same manner.
 # Copyright & License
 
 Copyright (c) 2013-2019 Ghost Foundation - Released under the [MIT license](LICENSE).
+
+# Vidya.dev
+
+This is a separate version of the normal Casper theme modified to work as a Progressive Web App with push notifications and optimized for Google Lighthouse.

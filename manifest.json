@@ -1,0 +1,22 @@
+{
+  "name": "vidya",
+  "short_name": "vidya",
+  "start_url": "/",
+  "theme_color": "#343F44",
+  "background_color": "#343F44",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/vidyadev.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/vidyadev512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "gcm_sender_id": "482941778795",
+  "gcm_sender_id_comment": "Do not change the GCM Sender ID"
+}
