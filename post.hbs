@@ -77,8 +77,18 @@ into the {body} of the default.hbs template --}}
 
             {{!-- The comment system used by vidya.dev, edit this line to embed your own --}}
             <section class="post-full-comments">
-                <div id="commento"></div>
-                <script src="https://commento.vidya.dev/js/commento.js"></script>
+                <div id='discourse-comments'></div>
+
+                <script type="text/javascript">
+                    DiscourseEmbed = { discourseUrl: 'https://forum.vidya.dev/',
+                                        discourseEmbedUrl: '{{url absolute="true"}}' };
+
+                    (function() {
+                        var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+                        d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+                    })();
+                </script>
             </section>
 
         </article>
