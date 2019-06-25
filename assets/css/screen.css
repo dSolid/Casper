@@ -50,6 +50,16 @@ body {
     text-indent: -9999px;
 }
 
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+}
+
 
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */

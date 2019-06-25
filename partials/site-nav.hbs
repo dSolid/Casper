@@ -14,18 +14,18 @@
     <div class="site-nav-right">
         <div class="social-links">
             {{#if @site.facebook}}
-                <a class="social-link social-link-fb" href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener">{{> "icons/facebook"}}</a>
+                <a class="social-link social-link-fb" href="{{facebook_url @site.facebook}}" title="Facebook" target="_blank" rel="noopener"><span class="screen-reader-text">{{facebook_url @site.facebook}}</span>{{> "icons/facebook"}}</a>
             {{/if}}
             {{#if @site.twitter}}
-                <a class="social-link social-link-tw" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
+                <a class="social-link social-link-tw" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener"><span class="screen-reader-text">{{twitter_url @site.twitter}}</span>{{> "icons/twitter"}}</a>
             {{/if}}
             {{!-- Bell icon to subscribe to web push notifications --}}
-            <a href="#" id="os-notifications" class="social-link disabled" style="display: none;">{{> "icons/notifications"}}{{> "icons/notifications-disabled"}}</a>
+            <a href="#" id="os-notifications" class="social-link disabled" style="display: none;"><span class="screen-reader-text">Subscribe to our notifications</span>{{> "icons/notifications"}}{{> "icons/notifications-disabled"}}</a>
         </div>
         {{#if @labs.subscribers}}
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
         {{else}}
-            <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
+            <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener"><span class="screen-reader-text">RSS</span>{{> "icons/rss"}}</a>
         {{/if}}
     </div>
 </nav>
