@@ -808,7 +808,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: flex;
     flex-direction: column;
     margin: 2px 0 0 6px;
-    color: color(var(--midgrey) l(+10%));
+    color: color(var(--midgrey) l(+20%));
     font-size: 1.2rem;
     line-height: 1.4em;
     font-weight: 400;
@@ -1542,7 +1542,7 @@ Usage (In Ghost editor):
 
 .post-full-byline-meta {
     margin: 2px 0 0;
-    color: color(var(--midgrey) l(+10%));
+    color: color(var(--midgrey) l(+20%));
     font-size: 1.2rem;
     line-height: 1.2em;
     letter-spacing: 0.2px;
@@ -2929,7 +2929,7 @@ Usage (In Ghost editor):
     }
 
     .post-card-excerpt {
-        color: color(var(--midgrey) l(+10%));
+        color: color(var(--midgrey) l(+20%));
     }
 
     .author-avatar,
@@ -2952,7 +2952,7 @@ Usage (In Ghost editor):
     }
 
     .post-full-custom-excerpt {
-        color: color(var(--midgrey) l(+10%));
+        color: color(var(--midgrey) l(+20%));
     }
 
     .post-full-image {
