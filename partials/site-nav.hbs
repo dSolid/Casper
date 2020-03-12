@@ -28,7 +28,7 @@
                     <a class="social-link social-link-tw" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener"><span class="screen-reader-text">Follow me on Twitter</span>{{> "icons/twitter"}}</a>
                 {{/if}}
                 {{!-- Bell icon to subscribe to web push notifications --}}
-                <a href="#" id="os-notifications" class="social-link disabled" style="display: none;"><span class="screen-reader-text">Subscribe to our notifications</span>{{> "icons/notifications"}}{{> "icons/notifications-disabled"}}</a>
+                <a href="#" class="os-notifications social-link disabled" style="display: none;"><span class="screen-reader-text">Subscribe to our notifications</span>{{> "icons/notifications"}}{{> "icons/notifications-disabled"}}</a>
             </div>
             {{#unless @labs.members}}
                 <a class="rss-button" href="https://feedly.com/i/subscription/feed/{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener"><span class="screen-reader-text">Follow my RSS feed</span>{{> "icons/rss"}}</a>
